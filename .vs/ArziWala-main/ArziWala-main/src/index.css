@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  /* Custom select styling - remove default arrow only */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+@layer components {
+  .font-serif {
+    font-family: 'Merriweather', Georgia, serif;
+  }
+}

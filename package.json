@@ -1,0 +1,18 @@
+{
+  "name": "nvidia-nim-cloud",
+  "version": "1.0.0",
+  "description": "NVIDIA NIM Cloud API client",
+  "type": "module",
+  "main": "chat.js",
+  "scripts": {
+    "start": "node chat.js",
+    "chat": "node chat.js",
+    "dev": "node --watch chat.js"
+  },
+  "keywords": ["nvidia", "nim", "llama", "api"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
